@@ -6,8 +6,7 @@ Built with clean design principles and smooth user experience in mind.
 ---
 
 ## 🚀 Live Demo  
-👉 [View Portfolio](https://codebysadiya.github.io/portfolio/)  
-*(Replace this link after you deploy with your actual GitHub Pages URL)*
+👉 [View Portfolio]( https://codebysadiya.github.io/CodeAlpha_Portfolio/)  
 
 ---
 
