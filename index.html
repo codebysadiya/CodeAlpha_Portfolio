@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sadiya Fatima - Portfolio</title>
+    <link href="style.css" rel="stylesheet">
+
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="logo">SADIYA FATIMA</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="mobile-menu-toggle" id="mobileMenuToggle">
+                <div class="hamburger"></div>
+                <div class="hamburger"></div>
+                <div class="hamburger"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <ul class="mobile-nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="floating-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+            <div class="shape shape-4"></div>
+            <div class="shape shape-5"></div>
+            <div class="shape shape-6"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-subtitle">Tech Enthusiast & Code Explorer</div>
+            <h1>Blending code and creativity to build meaningful experiences.</h1>
+            <p class="subtitle">Passionate about shaping intuitive, modern interfaces that make an impact, empowering users to connect effortlessly with technology.</p>
+            <a href="#portfolio" class="cta-button">Explore My Work</a>
+        </div>
+        <div class="scroll-indicator" onclick="document.getElementById('about').scrollIntoView()"></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title fade-in">About Me</h2>
+            <div class="about-content">
+                <div class="about-image slide-in-left"></div>
+                <div class="about-text slide-in-right">
+                    <h3>Passionate about creating meaningful digital experiences</h3>
+                    <p>I’m Sadiya Fatima, a tech student with a deep curiosity for how creativity and intelligence can merge. My passion lies in crafting interactive digital experiences while exploring the limitless world of Machine Learning and Artificial Intelligence.</p>
+                    <p>I love designing interfaces that feel alive — fluid visuals, intuitive motion, and human-centered interactions. But what excites me even more is understanding the data and intelligence behind the screen — how algorithms can make design adaptive, smart, and deeply personal.</p>
+                    <p>When I’m not building or learning, I’m sketching out new ideas, exploring color palettes, or reading about how machines think — because creativity, in all its forms, deserves a touch of intelligence.</p>
+                    <div class="skills">
+                        <span class="skill-tag">Version Control</span>
+                        <span class="skill-tag">Web Development</span>
+                        <span class="skill-tag">Machine Learning & AI</span>
+                        <span class="skill-tag">Programming</span>
+                        <span class="skill-tag">Databases</span>
+                        <span class="skill-tag">Soft Skills</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title fade-in">My Projects</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <div class="portfolio-image"></div>
+                    <div class="portfolio-content">
+                        <h4>Scientific Calculator</h4>
+                        <p>A responsive scientific calculator that performs basic and advanced mathematical operations like trigonometric, logarithmic, and exponential functions. Designed with a modern neumorphic interface for an elegant, user-friendly experience.</p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">HTMl</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image"></div>
+                    <div class="portfolio-content">
+                        <h4>Image Gallery</h4>
+                        <p>A simple yet elegant image gallery showcasing interactive photo displays with smooth transitions and a responsive layout for all screen sizes.</p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image"></div>
+                    <div class="portfolio-content">
+                        <h4>Quiz Web App </h4>
+                        <p>Developed an interactive quiz game with real-time scoring, dynamic questions, and an engaging user interface for a fun learning experience.</p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">JSON</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image"></div>
+                    <div class="portfolio-content">
+                        <h4>User Authentication</h4>
+                        <p>Developed a secure user authentication system with login, signup, and encrypted password storage to ensure safe access control.</p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Mysql</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JWT</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image"></div>
+                    <div class="portfolio-content">
+                        <h4>Churn Prediction</h4>
+                        <p>A machine learning model that predicts customer churn by analyzing user behavior and trends, helping businesses improve retention and decision-making.</p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">Streamlit</span>
+                            <span class="tech-tag">Scikit-learn</span>
+                            <span class="tech-tag">pandas</span>
+                            <span class="tech-tag">Numpy</span>
+                            <span class="tech-tag">RandomForest</span>
+                            <span class="tech-tag">python</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image"></div>
+                    <div class="portfolio-content">
+                        <h4>Creative Portfolio</h4>
+                        <p>My portfolio reflects my passion for design, code, and innovation.
+                        I create sleek, intuitive digital experiences that blend creativity with technology.
+                        Every project is a step in my journey of learning and exploring AI, ML, and web development.</p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="contact-floating-shapes">
+            <div class="contact-shape contact-shape-1"></div>
+            <div class="contact-shape contact-shape-2"></div>
+            <div class="contact-shape contact-shape-3"></div>
+            <div class="contact-shape contact-shape-4"></div>
+            <div class="contact-shape contact-shape-5"></div>
+            <div class="contact-shape contact-shape-6"></div>
+        </div>
+        <div class="container">
+            <div class="contact-content">
+                <h2 class="section-title fade-in">Let's Work Together</h2>
+                <p class="fade-in">Ready to bring your vision to life? Let's discuss how we can create something amazing together. I'm always excited to take on new challenges and collaborate on innovative projects.</p>
+                <form class="contact-form fade-in">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your full name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" placeholder="What's this about?" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="6" placeholder="Tell me about your project..." required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <p>&copy; 2025 | Built by Sadiya</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
